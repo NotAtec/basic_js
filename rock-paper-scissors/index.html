@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/rock.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+</head>
+
+<body class="container col sbetween">
+    <div class="container centered" id="header"><h1>Rock Paper Scissors</h1></div>
+    <div class="container centered col" id="rps-container">
+        <div class="container centered col" id="game-stats">
+            <div class="container centered col" id="result">
+                <h2>Choose your fighter</h2>
+                <p>First to 5 points wins</p>
+            </div>
+            <div class="container centered" id="points">
+                <div class="container centered col" id="player">
+                    <div class="img-box"><img src="img/questionmark.png" alt="A questionmark"></div>
+                    <p>Player: 0</p>
+                </div>
+                <div class="container centered col" id="computer">
+                    <div class="img-box"><img src="img/questionmark.png" alt="A questionmark"></div>
+                    <p>Computer: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="container centered" id="rps-buttons">
+            <button class="weapon" id="rock"><img src="img/rock.png"></button>
+            <button class="weapon" id="paper"><img src="img/paper.png"></button>
+            <button class="weapon" id="scissors"><img src="img/scissors.png"></button>
+        </div>
+    </div>
+    
+    <div class="container centered" id="footer"><p>Copyright © 2021 Jeroen B</p></div>
+    <div class="modal-container centered" id="modal-overlay">
+        <div class="container centered col" id="modal">
+            <div id="modal-title"><h2>TEXT</h2></div>
+            <button id="modal-button"><h3>Play Again!</h3></button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

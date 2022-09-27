@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexsetup.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+    </style>
+</head>
+<body class="container centered">
+    <div class="container col" id="calculator">
+        <div id="display"><p id="numbers">0</p></div>
+        <div class="container size1 row" id="row-1">
+            <div class="container num">
+                <button class="size1" id="7">7</button>
+                <button class="size1" id="8">8</button>
+                <button class="size1" id="9">9</button>
+            </div>
+            <div class="container opr">
+                <button class="size1 NaN" id="delete">C</button>
+                <button class="size1 NaN" id="reset">AC</button>
+
+            </div>
+        </div>
+        <div class="container size1 row" id="row-2">
+            <div class="container num">
+                <button class="size1 " id="4">4</button>
+                <button class="size1" id="5">5</button>
+                <button class="size1" id="6">6</button>
+            </div>
+            <div class="container opr">
+
+                <button class="size1 NaN" id="divide">/</button>
+                <button class="size1 NaN" id="multiply">x</button>
+            </div>
+        </div>
+        <div class="container size1 row" id="row-3">
+            <div class="container num">
+                <button class="size1" id="1">1</button>
+                <button class="size1" id="2">2</button>
+                <button class="size1" id="3">3</button>
+            </div>
+            <div class="container opr">
+                <button class="size1 NaN" id="add">+</button>
+                <button class="size1 NaN" id="subtract">-</button>
+            </div>
+        </div>
+        <div class="container size1 row" id="row-4">
+            <div class="container num">
+                <button class="zero" id="0">0</button>
+                <button class="NaN" id="decimal">.</button>
+            </div>
+            <div class="container opr">
+                <button class="size1 NaN" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
