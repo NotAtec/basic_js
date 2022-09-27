@@ -5,7 +5,7 @@ Learned to use the fundamentals of JS to setup a project to spec, with full inpu
 
 The calculator works like a basic school calculator, so the order of input is respected.
 
-[Live Preview](https://notatec.github.io/calculator/) <--
+[Live Preview](https://notatec.github.io/basic_js/calculator/) <--
 
 ## Features
 - 0 to 9 keypads for input
